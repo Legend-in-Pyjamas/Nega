@@ -1,0 +1,79 @@
+h2 {
+  font-family: poppins;
+} 
+body {
+  animation: 10000ms ease-in-out infinite color-change;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: green;
+  }
+  20% {
+    background-color: purple;
+  }
+  40% {
+    background-color: blue;
+  }
+  60% {
+    background-color: black;
+  }
+  80% {
+    background-color: blue;
+  }
+  100% {
+    background-color: teal;
+  }
+}
+h1, h2, h3, p{
+  text-align:center;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-family:impact;
+  letter-spacing: 3;
+}
+
+.title{
+  font-family:impact;
+  background: linear-gradient(90deg, black, gold , black, gold);
+  background-size: 100%;
+  font-family: sans-serif;
+  letter-spacing: 1;
+  font-size: 14px;
+
+}
+
+.bw, h2{
+  background: linear-gradient(270deg, black, white, gold, white, black);
+  background-size: 100%;
+  font-size: 32px;
+}
+
+.desc{
+  background: linear-gradient(90deg, red, blue, red, blue);
+  background-size: 100%;
+  text-align: center;
+}
+
+.br{
+  background: linear-gradient(270deg, black, white, gold, white, black);
+  background-size: 100%;
+  font-family: sans-serif;
+  letter-spacing: 1;
+  font-size: 14px;
+}
+
+.NS{
+  background: linear-gradient(90deg, green, blue, red, blue, green);
+  background-size: 100%;
+}
+
+
+.qtn{
+  font-family:monospace;
+  background: linear-gradient(270deg, black, white, gold, white, black);
+  background-size: 100%;
+}
